@@ -60,7 +60,7 @@ game_characters = ["Miss Scarlett", "Colonel Mustard", "Mrs. White", "Reverend G
 game_weapons = ["Candlestick", "Dagger", "Lead Pipe", "Revolver", "Rope", "Wrench"]
 game_rooms = ["Hall", "Kitchen", "Bedroom", "Ballroom", "Bathroom", "Dining", "Backyard", "Frontyard", "Storage"]
 
-There are 6 Character Cards, 6 Weapon Cards and 9 Room Cards. 1 of each category is taken out to form the solution, making the total remaining cards: 6 + 6 + 9 - 3 = 18. These 18 crds are divided among 6 players, so every player gets 3 cards.
+There are 6 Character Cards, 6 Weapon Cards and 9 Room Cards. 1 of each category is taken out to form the solution, making the total remaining cards: 6 + 6 + 9 - 3 = 18. These 18 cards are divided among 6 players, so every player gets 3 cards.
 
 This is a dictionary that stores the records of the players as the game goes on. Initially, every player is in the Hall and no one has any cards. When start_game(players, keys) is called, 3 cards are assigned to each player.
 game_players = {0: {"Name": "Miss Scarlett", "Location": "Hall", "Cards": []}, 1: {"Name": "Colonel Mustard", "Location": "Hall", "Cards": []}, 2: {"Name": "Mrs. White", "Location": "Hall", "Cards": []}, 3: {"Name": "Reverend Green", "Location": "Hall", "Cards": []}, 4: {"Name": "Mrs. Peacock", "Location": "Hall", "Cards": []}, 5: {"Name": "Professor Plum", "Location": "Hall", "Cards": []}}
